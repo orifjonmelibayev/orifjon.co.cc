@@ -1,0 +1,17 @@
+{{#posts}}
+			<div class="post">
+			
+				<h2><a href="{{slug}}">{{title}}</a></h2>
+			
+				<p class="post-info">Posted by <a href="index.html">erwin</a> | Filed under <a href="index.html">templates</a>, <a href="index.html">internet</a>  </p>
+
+				<p>{{body}}</p>
+
+				<p class="postmeta">		
+					<a href="{{slug}}" class="comments">Comments (3)</a> |		
+					<span class="date">{{created_date}}</span> |		
+					<a href="index.html" class="edit">Edit</a> 
+				</p>
+			
+			</div>
+{{/posts}} 

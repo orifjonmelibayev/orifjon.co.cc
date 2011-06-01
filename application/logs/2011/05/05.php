@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-05-05 00:27:23 --- ERROR: ErrorException [ 1 ]: Class 'HTTP_Exeption_404' not found ~ APPPATH/classes/controller/media.php [ 40 ]
+2011-05-05 00:27:28 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 00:47:33 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 00:47:57 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:11:57 --- ERROR: ErrorException [ 1 ]: Call to undefined function method_exsists() ~ APPPATH/classes/view/admin/layout.php [ 34 ]
+2011-05-05 01:12:14 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:13:43 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:18:35 --- ERROR: ErrorException [ 1 ]: Class 'HTTP_Exeption_404' not found ~ APPPATH/classes/controller/media.php [ 40 ]
+2011-05-05 01:18:38 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:32:47 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:34:39 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:37:24 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:37:26 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:42:37 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]
+2011-05-05 01:44:15 --- ERROR: Http_Exception_404 [ 404 ]: Not found ~ APPPATH/classes/view/post.php [ 10 ]

@@ -1,0 +1,101 @@
+{{#post}}
+			<div class="post">
+			
+				<h2>{{title}}</h2>
+			
+				<p class="post-info">Muallif: <a href="index.html">{{author}}</a> | Filed under <a href="index.html">{{category}}</a>, <a href="index.html">internet</a>  </p>
+				
+				<p>{{{intro}}}</p>
+			
+				<p>
+					{{{body}}}
+				</p>			
+				
+				<p class="postmeta">		
+				<span class="comments">Comments ({{comment_count}})</span> |		
+				<span class="date">{{created_date}}</span> 
+				</p>
+			
+			</div>
+			
+			<h3 id="comments">{{comment_count}} Responses</h3>
+
+			<ol class="commentlist">
+
+				<li class="alt" id="comment-63">
+					
+					<cite>
+						<img alt="" src="images/gravatar.jpg" class="avatar" height="40" width="40" />			
+						<a href="index.html">Friend A</a> Says: <br />				
+						<span class="comment-data"><a href="#comment-63" title="">July 20th, 2008 at 8:08 am</a> </span>
+					</cite>
+							
+					<div class="comment-text">
+						<p>Comments are great!</p>
+					</div>		
+					
+				</li>
+
+				<li id="comment-67">
+				
+					<cite>
+						<img alt="" src="images/gravatar.jpg" class="avatar" height="40" width="40" />			
+						admin Says: <br />				
+						<span class="comment-data"><a href="#comment-67" title="">July 20th, 2008 at 2:17 pm</a> </span>
+					</cite>
+				
+					<div class="comment-text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. 
+						Suspendisse bibendum.</p>
+					</div>	
+
+				</li>
+			
+				<li class="alt" id="comment-71">
+				
+					<cite>
+						<img alt="" src="images/gravatar.jpg" class="avatar" height="40" width="40" />			
+						<a href="index.html">Friend B</a> Says: <br />					
+						<span class="comment-data"><a href="#comment-71" title="">July 20th, 2008 at 3:17 pm</a> </span>
+					</cite>
+					
+					<div class="comment-text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. 
+						Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu 
+						posuere nunc justo tempus leo.</p>
+					</div>	
+
+				</li>
+			
+			</ol>
+
+ 			<h3 id="respond">Leave a Reply</h3>				
+			
+			<form action="index.html" method="post" id="commentform">		
+								
+				<p>	
+					<label for="name">Name (required)</label><br />
+					<input id="name" name="name" value="Your Name" type="text" tabindex="1" />
+				</p>
+			
+				<p>
+					<label for="email">Email Address (required)</label><br />
+					<input id="email" name="email" value="Your Email" type="text" tabindex="2" />
+				</p>
+				
+				<p>
+					<label for="website">Website</label><br />
+					<input id="website" name="website" value="Your Website" type="text" tabindex="3" />
+				</p>
+					
+				<p>
+					<label for="message">Your Message</label><br />
+					<textarea id="message" name="message" rows="10" cols="20" tabindex="4"></textarea>
+				</p>	
+			
+				<p class="no-border">
+					<input class="button" type="submit" value="Submit" tabindex="5" />         		
+				</p>
+					
+			</form>	
+{{/post}}

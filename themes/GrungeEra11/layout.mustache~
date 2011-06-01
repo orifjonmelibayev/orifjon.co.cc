@@ -1,0 +1,9 @@
+{{>header}}	
+	<!-- content starts -->
+	<div id="content-outer" class="clear"><div id="content-wrap" >	
+		<div class="content">
+			{{>content}}
+		</div>
+	<!-- content ends -->	
+	</div></div>	
+{{>footer}}

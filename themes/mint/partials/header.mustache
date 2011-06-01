@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="{{base}}" />
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="title" content="{{title}}" />
+<meta name="keywords" content="keywords, here" />
+<meta name="googlebot" content="noarchive" />
+	<meta name="author" content="Orifjon Meliboyev" />
+	<meta name="description" content="My testing Portfolio" />
+	<meta name="robots" content="all,follow" />
+
+	<link href="css/screen.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<!--[if lte IE 6]>
+	<link href="css/msie.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<![endif]-->
+	<link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
+
+	<title>{{title}}</title>
+</head>
+<body>
+
+	<div id="layout">
+	
+	<div id="header">
+		
+		<h1 id="logo"><a href="./" title="This is my name :)">Orifjon <span class="light">Meliboyev</span></a></h1>
+		{{! slogan}}
+		<hr class="noscreen" />   
+	
+		<p class="noscreen noprint">
+		<em>Skip to <a href="#obsah">content</a>, <a href="#nav">navigation</a>.</em>
+		</p>
+	
+	<hr class="noscreen" />
+	
+	<div id="nav" class="box">
+		<ul>
+			<li><a href="/">Home<br /><span>Main page</span></a></li>
+			{{#main_menu}}
+			<li><a href="{{link}}">{{text}}<br /><span>{{desc}}</span></a></li>
+			{{/main_menu}}
+		</ul>
+		<hr class="noscreen" />
+	</div> 
+	</div> <!-- End of Header -->

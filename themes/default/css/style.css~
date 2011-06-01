@@ -1,0 +1,78 @@
+/*----- Start "Main definitions" -----*/
+* { padding: 0; margin: 0; outline: 0; }
+
+body {
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Arial, "Trebuchet MS", Tahoma sans-serif;
+    color: #4a4a4a;
+    background: #f6f6f6 url(images/body-bg.gif) repeat-x 0 0;
+    text-align: left;
+}
+
+a img { border: 0; }
+a { color: #037bb9; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+.cl, .clear { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+/*----- End "Main definitions" -----*/
+
+#page { width: 952px; margin: 0 auto; padding: 0 10px; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", Tahoma, Arial, Sans-Serif;
+	color: #2b2b2b;
+	font-weight: normal;
+}
+h1 { font-size: 23px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 15px; }
+h6 { font-size: 14px; }
+
+ul { padding-left: 15px; }
+
+#header { padding: 20px 12px 15px 3px; }
+#header .description { font-family: "Trebuchet MS", Tahoma, Arial, Sans-Serif; font-size: 11px; color: #9c9c9c; text-transform: uppercase; line-height: 1; }
+#header h1 { line-height: 1.1; }
+#header h1 a { color: #2b2b2b; text-decoration: none; }
+
+#navigation { float: right; display: inline; font-size: 11px; line-height: 1.5; text-transform: uppercase; padding-top: 10px; }
+#navigation ul li { float: left; display: inline; list-style-type: none; padding-right: 18px; margin-right: 14px; background: url(images/nav-sep.gif) repeat-y right 0; }
+#navigation ul li.last { margin-right: 0; padding-right: 0; background: none; }
+#navigation ul li a { color: #7f7f7f; text-decoration: none; }
+#navigation ul li a:hover { text-decoration: underline; }
+#navigation ul li.active a { color: #000; }
+
+#slideshow { height: 454px; width: 962px; position: relative; left: -5px; }
+#slideshow .bg { height: 454px; width: 962px; background: url(images/slider.png) no-repeat 0 0; }
+#slideshow .cnt { padding: 42px 36px 0 36px; }
+#slideshow .big-image { margin-bottom: 12px; }
+#slideshow .big-image img { padding: 2px; border: solid 1px #d5d5d5; }
+
+#slider { width: 890px; position: relative; }
+#slider .buttons span { display: block; width: 38px; height: 37px; font-size: 0; line-height: 0; text-indent: -4000px; cursor: pointer; }
+#slider .buttons span { position: absolute; top: 21px; }
+#slider .buttons .prev { left: 0; background: url(images/button-prev.gif) no-repeat 0 0; }
+#slider .buttons .next { right: 0; background: url(images/button-next.gif) no-repeat 0 0; }
+#slider .holder { width: 790px; height: 78px; margin: 0 auto; position: relative; overflow: hidden; }
+#slider .content { position: absolute; top: 0; left: 0; width: 100000px; }
+#slider .content ul { float: left; display: inline; padding-left: 0; }
+#slider .fragment { float: left; display: inline; list-style-type: none; }
+#slider .fragment a { float: left; display: inline; width: 133px; height: 72px; padding: 3px; background: url(images/slider-fragment.gif); margin: 0 10px; }
+
+#content { padding: 0 5px 10px 5px; }
+#content p { padding-bottom: 18px; }
+.separator { padding-right: 18px; background: url(images/col-sep.gif) no-repeat right 10px; }
+#content .left-col { float: left; display: inline; width: 395px; }
+#content .right-col { float: right; display: inline; width: 505px; }
+
+.sidebar { float: right; display: inline; width: 200px; }
+.main { float: left; display: block;  }
+
+
+.linklist { padding-left: 0; }
+.linklist li { padding-left: 7px; background: url(images/linklist-ico.gif) no-repeat 0 7px; list-style-type: none; }
+
+#footer { background: url(images/footer-line.gif) no-repeat center 0; padding: 20px 18px; }

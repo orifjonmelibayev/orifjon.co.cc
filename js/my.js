@@ -1,0 +1,1 @@
+$('#login').load('adding.html');
