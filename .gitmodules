@@ -1,0 +1,21 @@
+[submodule "system"]
+	path = system
+	url = git://github.com/kohana/core.git
+[submodule "modules/kostache"]
+	path = modules/kostache
+	url = https://github.com/zombor/KOstache.git
+[submodule "modules/auth"]
+	path = modules/auth
+	url = https://github.com/kohana/auth.git
+[submodule "modules/orm"]
+	path = modules/orm
+	url = https://github.com/kohana/orm.git
+[submodule "modules/database"]
+	path = modules/database
+	url = https://github.com/kohana/database.git
+[submodule "modules/cache"]
+	path = modules/cache
+	url = https://github.com/kohana/cache.git
+[submodule "modules/koig"]
+	path = modules/koig
+	url = https://github.com/orifjon/koig.git
