@@ -22,7 +22,7 @@ else
  * @see  http://kohanaframework.org/guide/using.configuration
  * @see  http://php.net/timezones
  */
-date_default_timezone_set('America/Chicago');
+date_default_timezone_set('Asia/Tashkent');
 
 /**
  * Set the default locale.
@@ -100,16 +100,12 @@ Kohana::$config->attach(new Config_File);
  */
 // TODO: move this to config?
 $modules = array(
-	'devtools'   => MODPATH.'devtools',       // Storage for media files to access directly and trough Kohana::find_file();
 	'auth'       => MODPATH.'auth',       // Basic authentication
 	'cache'      => MODPATH.'cache',      // Caching with multiple backends
-	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
 	'database'   => MODPATH.'database',   // Database access
-	'image'      => MODPATH.'image',      // Image manipulation
 	'orm'        => MODPATH.'orm',        // Object Relationship Mapping
-	// 'unittest'   => MODPATH.'unittest',   // Unit testing
 	'kostache'   => MODPATH.'kostache',  // KOstache
-	'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	'profiler'   => MODPATH.'profiler',
 	'koig'  => MODPATH.'koig', 
  );
 array_merge($modules, Kohana::config('website.plugins'));
@@ -152,7 +148,7 @@ Route::set('static', '<page>.html', array('page' => '.+'))
 		'action'     => 'index',
 	));
 
-Route::set('blog-category', 'category/<category>', array('category' => '.+'))
+Route::set('blog-category', 'category(/<category>)', array('category' => '.+'))
 	->defaults(array(
 		'controller' => 'blog',
 		'action'     => 'category',

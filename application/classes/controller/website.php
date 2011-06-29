@@ -39,8 +39,8 @@ class Controller_Website extends Controller_Auth {
 				 * The View class could not be found, so the controller action is
 				 * repsonsible for making sure this is resolved.
 				 */
-				// throw $x;
-				$this->view = NULL;
+				 throw $x;
+				//$this->view = NULL;
 			}
 		}
 	}

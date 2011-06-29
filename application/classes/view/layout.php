@@ -26,4 +26,10 @@ class View_Layout extends Kostache_Layout
 	{
 		return URL::base('http');
 	}
+	
+	public function profiler()
+	{
+		if (Kohana::$environment == Kohana::DEVELOPMENT)
+    		return View::factory('profiler/stats');
+	}
 }

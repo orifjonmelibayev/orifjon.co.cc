@@ -20,5 +20,6 @@ class Controller_Blog extends Controller_Website {
 	{
 		$this->view->category = $this->request->param('category');
 	}
+	
 
 } // End blog
